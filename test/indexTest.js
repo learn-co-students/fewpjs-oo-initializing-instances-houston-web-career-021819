@@ -14,8 +14,8 @@ describe("lunch", () => {
     expect(new Lunch()).to.be.an.instanceof(Lunch);
   })
   it("creates a new lunch with the correct parameters", () => {
-    newlunch = new Lunch('side salad', 'broccoli cheddar soup', 'iced tea')
-    expect(newlunch.salad).to.equal('side salad')
+    newlunch = new Lunch('salad', 'broccoli cheddar soup', 'iced tea')
+    expect(newlunch.salad).to.equal('salad')
     expect(newlunch.soup).to.equal('broccoli cheddar soup')
     expect(newlunch.drink).to.equal('iced tea')
   })
